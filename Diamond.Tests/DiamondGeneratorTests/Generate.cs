@@ -11,7 +11,7 @@ namespace Diamond.Tests.DiamondGeneratorTests
             var exception = Record.Exception(() => diamondGenerator.Generate('#'));
 
             Assert.IsType<ArgumentException>(exception);
-            Assert.Equal("Provided argument is not a capital letter from the alphabet", exception.Message);
+            Assert.Equal("Provided argument is not a capital letter", exception.Message);
         }
 
         [Theory]

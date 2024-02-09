@@ -8,13 +8,27 @@ Examples
       A
 
     > diamond.exe B
-       A
-      B B
-       A
+      _A_
+      B_B
+      _A_
 
     > diamond.exe C
-        A
-       B B
-      C   C
-       B B
-        A
+      __A__
+      _B_B_
+      C___C
+      _B_B_
+      __A__
+
+## How to run?
+
+1. Build solution
+```
+dotnet build
+```
+
+2. Run
+
+```
+cd Diamond.App\bin\Debug\net8.0\
+diamond.exe C
+```

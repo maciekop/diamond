@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diamond.Lib", "Diamond.Lib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamond.Tests", "Diamond.Tests\Diamond.Tests.csproj", "{DDF3E1B2-41DD-4369-866C-91DC3B6F4C39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamond.App", "Diamond.App\Diamond.App.csproj", "{24861AA3-8EA9-48C2-80DB-FAC85B70E690}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DDF3E1B2-41DD-4369-866C-91DC3B6F4C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF3E1B2-41DD-4369-866C-91DC3B6F4C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF3E1B2-41DD-4369-866C-91DC3B6F4C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24861AA3-8EA9-48C2-80DB-FAC85B70E690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24861AA3-8EA9-48C2-80DB-FAC85B70E690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24861AA3-8EA9-48C2-80DB-FAC85B70E690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24861AA3-8EA9-48C2-80DB-FAC85B70E690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
